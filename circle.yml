@@ -2,4 +2,4 @@ deployment:
   production:
     tag: /v.*/
     commands:
-      - ssh anders@berremedia.no docker run -d --name hello  -p 1234:1337 beeera/hello-world:$CIRCLE_TAG;
+      - ssh anders@berremedia.no docker run -d --name hello  -p 1234:1337 beeera/hello-world:latest;
